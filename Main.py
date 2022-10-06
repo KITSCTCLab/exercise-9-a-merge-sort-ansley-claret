@@ -27,6 +27,17 @@ def merge_sort(data) -> None:
             j += 1
             # Move to the next slot
             k += 1
+        # For all the remaining values
+       while i < len(left):
+           myList[k] = left[i]
+           i += 1
+           k += 1
+
+ while j < len(right):
+ myList[k]=right[j]
+ j += 1
+ k += 1
+
 
 
 # Do not change the following code
