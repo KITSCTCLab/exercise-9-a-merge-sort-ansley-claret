@@ -22,6 +22,11 @@ def merge_sort(data) -> None:
               myList[k] = left[i]
               # Move the iterator forward
               i += 1
+        else:
+            myList[k] = right[j]
+            j += 1
+            # Move to the next slot
+            k += 1
 
 
 # Do not change the following code
