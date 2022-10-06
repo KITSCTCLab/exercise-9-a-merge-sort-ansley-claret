@@ -16,6 +16,12 @@ def merge_sort(data) -> None:
         
         # Iterator for the main list
         k = 0
+        while i < len(left) and j < len(right):
+            if left[i] <= right[j]:
+              # The value from the left half has been used
+              myList[k] = left[i]
+              # Move the iterator forward
+              i += 1
 
 
 # Do not change the following code
